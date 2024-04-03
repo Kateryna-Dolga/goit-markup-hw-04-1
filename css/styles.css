@@ -49,6 +49,9 @@ span {
 
 .header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container{
@@ -81,8 +84,8 @@ margin-right: 76px
     gap: 40px;
 }
 .header-menu-li{
-   
-
+position: relative;
+color: #404bbf;
 }
 
 .header-menu-a{
@@ -96,7 +99,7 @@ margin-right: 76px
     display: block;
 }
 
-.header-menu-a:hover {
+/*.header-menu-a:hover {
 color:#404bbf;
 
     border-bottom: 4px solid #404bbf;
@@ -104,7 +107,22 @@ color:#404bbf;
 
 .header-menu-a:focus {
     color: #404bbf;
+}*/
+
+
+.header-menu-a:hover::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .email-tel{
 font-weight: 400;
@@ -121,6 +139,7 @@ color: #404bbf;
 color: #404bbf;
 }
 
+
 .address{
     font-style: normal;
 }
@@ -130,10 +149,16 @@ color: #404bbf;
     gap: 40px;
 }
 
+address-li {
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-nav{
     display: flex;
     align-items: center;
 }
+
+
 /*-----------------/header-----------------------------------------------------------*/
 
 /*------------------section one----------------------------------*/ 

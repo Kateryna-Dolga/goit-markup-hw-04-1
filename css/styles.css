@@ -295,6 +295,8 @@ border: 1px solid #8e8f99;
   
 }
 
+
+
 /*------------------/section two-----------------------------------*/
 
 /*------------------section three-----------------------------------*/
@@ -468,5 +470,10 @@ display: flex;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    color: white;
+}
+
+.icon{
+    color: white;
 }
 /*------------------/footer-----------------------------------*/

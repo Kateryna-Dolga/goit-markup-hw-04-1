@@ -450,9 +450,7 @@ fill: #f4f4fd;
     color: #434455;
 }
 
-.our-portfolio-p:hover{
-  
-}
+
 
 .our-portfolio-li {
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -470,7 +468,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .our-portfolio-li:hover {
-    .our-portfolio-p{
+    .section-four-img-p{
 transform: translateY(0%);
     }
 }

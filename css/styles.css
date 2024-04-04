@@ -100,6 +100,8 @@ span {
 }
 
 .header-menu-a:hover::after {
+content: '';
+width: 100%;
 border-radius: 2px;
 background-color: #404bbf;
 height: 4px;

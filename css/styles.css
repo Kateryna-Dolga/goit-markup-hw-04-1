@@ -512,7 +512,7 @@ max-width: 264px
 }
 
 
- .fsm-icon .link{
+.f-sm-a{
 display: flex;
     justify-content: center;
     align-items: center;
@@ -520,17 +520,18 @@ display: flex;
     height: 100%;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.link:hover{
+.f-sm-a:hover{
     background-color: #31d0aa;
 }
 
-.link:focus{
+.f-sm-a:focus{
     background-color: #31d0aa;
 }
 
-.footer-social-media p{
+.f-sm-p{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -549,4 +550,7 @@ width: 40px;
 height: 40px;
 }
  
+.f-svg-icon{
+    fill: #f4f4fd;
+}
 /*-----------------/footer---------------------------------*/

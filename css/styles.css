@@ -375,12 +375,30 @@ border: 1px solid #8e8f99;
 
 }
 .section-three-icon-a:hover {
-    background-color: #31d0aa;
+    background-color :#404bbf;
 }
 
 .section-three-icon-a:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
+
+.section-three-icon-ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.section-three-icon-li {
+    width: 40px;
+    height: 40px;
+
+}
+.section-three-icon-svg {
+fill: #f4f4fd;
+
+}
+
+
 /*------------------/section three-----------------------------------*/
 
 

@@ -82,7 +82,7 @@ span {
     gap: 40px;
 }
 
-.header-menu-li {}
+.header-menu-li {color: #404bbf;}
 
 .header-menu-a{
     position: relative;
@@ -102,7 +102,7 @@ position: relative;
     color: #434455 ;
 }
 
-.header-menu-a.current::after {
+.header-menu-a.current:hover::after {
 content: '';
 width: 100%;
 border-radius: 2px;
@@ -111,6 +111,7 @@ height: 4px;
 bottom: -1px;
 left: 0;
 position: absolute;
+color: #404bbf;
 }
 
 /*.header-menu-a:hover {

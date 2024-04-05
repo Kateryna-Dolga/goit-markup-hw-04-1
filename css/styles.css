@@ -56,7 +56,6 @@ span {
 
 .header .container {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
 }
@@ -98,7 +97,12 @@ span {
     display: block;
 }
 
-.header-menu-a:hover::after {
+.current{
+position: relative;
+    color: #434455 ;
+}
+
+.header-menu-a.current::after {
 content: '';
 width: 100%;
 border-radius: 2px;

@@ -99,7 +99,7 @@ span {
 
 .current{
 position: relative;
-    
+    color: #404bbf ;
 }
 
 .header-menu-a:hover{
@@ -114,6 +114,7 @@ height: 4px;
 bottom: -1px;
 left: 0;
 position: absolute;
+color: #404bbf;
 
 }
 

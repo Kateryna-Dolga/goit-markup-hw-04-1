@@ -383,6 +383,7 @@ border: 1px solid #8e8f99;
 }
 
 .section-three-icon-ul{
+    padding: 8px 0 0 0;
     display: flex;
     justify-content: center;
     gap: 24px;
